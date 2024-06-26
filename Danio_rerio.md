@@ -1,4 +1,6 @@
 **Danio rerio Proyecto Final**
+
+
 Este proyecto esta centrado en el aprendizaje recibido en clases de Bioinformatica impartido por el PhD. Daniel Chavez y su manejos de herramientas bioinformaticas.
 
 Este proyecto se divide en 2 temas principales 
