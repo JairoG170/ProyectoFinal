@@ -1,0 +1,156 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=52;
+	taxlabels
+	'Danio aff. choprai BOLD:AAU2157 ott819437'
+	'Danio aff. dangila BOLD:AAU2158 ott819439'
+	'Danio aff. dangila BOLD:AAU2159 ott295089'
+	'Danio aff. dangila DP-2005 ott657172'
+	'Danio aff. kyathit BOLD:AAJ4326 ott295088'
+	'Danio cf. dangila BOLD:AAV9219 ott664302'
+	'Danio cf. kerri BOLD:AAU2162 ott664297'
+	'Danio cf. rerio ''Assam'' ott705424'
+	'Danio cf. rerio RCYY501-11 ott295095'
+	'Danio kyathit ''spotted'' ott255898'
+	'Danio kyathit ''striped'' ott88933'
+	Danio_absconditus_ott6142086
+	Danio_aesculapii_ott747161
+	'Danio_aff._albolineatus_ott43750'
+	'Danio_aff._kyathit_ZRC_52628_ott207066'
+	'Danio_aff._kyathit_ZRC_52855_ott207064'
+	Danio_albolineatus_ott1027757
+	Danio_annulosus_ott5839080
+	Danio_assamila_ott5839081
+	Danio_catenatus_ott5839082
+	'Danio_cf._dangila_CTOL01570_ott255897'
+	'Danio_cf._rerio_10487_KARNAFULI_ott7066476'
+	'Danio_cf._rerio_10503_SANGU_ott7066477'
+	'Danio_cf._rerio_66256_KARNAFULI_ott7066478'
+	'Danio_cf._rerio_66257_KARNAFULI_ott7066479'
+	'Danio_cf._rerio_COXS_ott7066480'
+	'Danio_cf._rerio_DU6176_ott7066481'
+	'Danio_cf._rerio_DU6237_ott7066482'
+	'Danio_cf._rerio_DU6251_BANDERBAN_ott7066483'
+	'Danio_cf._rerio_DU6254_ott7066484'
+	'Danio_cf._tweediei_ott43731'
+	Danio_choprai_ott620178
+	Danio_concatenatus_ott6142087
+	Danio_dangila_ott292317
+	Danio_feegradei_ott332645
+	Danio_flagrans_ott6142088
+	Danio_htamanthinus_ott7066485
+	Danio_jaintianensis_ott3626656
+	Danio_kerri_ott881594
+	Danio_margaritatus_ott307754
+	Danio_meghalayensis_ott747164
+	Danio_muongthanhensis_ott3626659
+	Danio_nigrofasciatus_ott536579
+	Danio_pulcher_ott881597
+	Danio_quagga_ott3626655
+	Danio_quangbinhensis_ott3626660
+	Danio_rerio_ott1005914[&!color=#ff0033]
+	Danio_roseus_ott953574
+	Danio_sysphigmatus_ott5839083
+	Danio_tinwini_ott528824
+	Danio_trangi_ott3626657
+	Danio_tweediei_ott881589
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Danio_cf._tweediei_ott43731':1.0,'Danio_aff._albolineatus_ott43750':1.0,((((((('Danio kyathit ''striped'' ott88933':1.0,'Danio kyathit ''spotted'' ott255898':1.0)[&label="Danio_kyathit_ott204515"]:1.0,Danio_rerio_ott1005914[&!color=#ca2949,!rotate=false]:1.0):1.0,(Danio_tinwini_ott528824:1.0,Danio_nigrofasciatus_ott536579:1.0):1.0):1.0,(Danio_kerri_ott881594:1.0,(Danio_roseus_ott953574:1.0,Danio_albolineatus_ott1027757:1.0):1.0):1.0):1.0,Danio_aesculapii_ott747161:1.0):1.0,Danio_margaritatus_ott307754:1.0):1.0,(Danio_dangila_ott292317:1.0,Danio_meghalayensis_ott747164:1.0):1.0):1.0,'Danio_aff._kyathit_ZRC_52855_ott207064':1.0,'Danio_aff._kyathit_ZRC_52628_ott207066':1.0,'Danio_cf._dangila_CTOL01570_ott255897':1.0,'Danio aff. kyathit BOLD:AAJ4326 ott295088':1.0,'Danio aff. dangila BOLD:AAU2159 ott295089':1.0,'Danio cf. rerio RCYY501-11 ott295095':1.0,Danio_feegradei_ott332645:1.0,Danio_choprai_ott620178:1.0,'Danio aff. dangila DP-2005 ott657172':1.0,'Danio cf. kerri BOLD:AAU2162 ott664297':1.0,'Danio cf. dangila BOLD:AAV9219 ott664302':1.0,'Danio cf. rerio ''Assam'' ott705424':1.0,'Danio aff. choprai BOLD:AAU2157 ott819437':1.0,'Danio aff. dangila BOLD:AAU2158 ott819439':1.0,Danio_tweediei_ott881589:1.0,Danio_pulcher_ott881597:1.0,Danio_quagga_ott3626655:1.0,Danio_jaintianensis_ott3626656:1.0,Danio_trangi_ott3626657:1.0,Danio_muongthanhensis_ott3626659:1.0,Danio_quangbinhensis_ott3626660:1.0,Danio_annulosus_ott5839080:1.0,Danio_assamila_ott5839081:1.0,Danio_catenatus_ott5839082:1.0,Danio_sysphigmatus_ott5839083:1.0,Danio_absconditus_ott6142086:1.0,Danio_concatenatus_ott6142087:1.0,Danio_flagrans_ott6142088:1.0,'Danio_cf._rerio_10487_KARNAFULI_ott7066476':1.0,'Danio_cf._rerio_10503_SANGU_ott7066477':1.0,'Danio_cf._rerio_66256_KARNAFULI_ott7066478':1.0,'Danio_cf._rerio_66257_KARNAFULI_ott7066479':1.0,'Danio_cf._rerio_COXS_ott7066480':1.0,'Danio_cf._rerio_DU6176_ott7066481':1.0,'Danio_cf._rerio_DU6237_ott7066482':1.0,'Danio_cf._rerio_DU6251_BANDERBAN_ott7066483':1.0,'Danio_cf._rerio_DU6254_ott7066484':1.0,Danio_htamanthinus_ott7066485:1.0)[&label="Danio_ott1005927"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=4.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set colour.order.label="label:Danio_kyathit_ott204515,Danio_ott1005927";
+	set colour.scheme.label="label:HSBDiscrete{hue,1,0.0,1.0,0.5,0.6,0.4,0.8}";
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=5;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=true;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.9;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=17;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
